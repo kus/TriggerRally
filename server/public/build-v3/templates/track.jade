@@ -1,0 +1,30 @@
+.gui-container
+  .text-panel
+
+    h2
+      span.favorite
+      | 
+      span.name= name
+      |  &mdash; 
+      a.route(href="/track/#{id}/drive") &gt; Drive &lt;
+
+    h3 Track by 
+      span.author
+
+    p
+      | Driven 
+      span.count_drive= count_drive
+      |  times. Copied 
+      span.count_copy= count_copy
+      |  times. Favorited 
+      span.count_fav= count_fav
+      |  times.
+
+    table.runlist.list
+      tr
+        td
+        td Driver
+        td Time
+        td Car
+        td
+        td Recorded

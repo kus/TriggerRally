@@ -7710,7 +7710,7 @@ jQuery.ajaxTransport(function( options ) {
 			send: function( headers, complete ) {
 				var i, id,
 					xhr = options.xhr();
-				xhr.open( options.type, options.url, options.async, options.username, options.password );
+				xhr.open( options.type, options.url.replace('/v1/tracks/RF87t6b6', '/v1/tracks/RF87t6b6.json'), options.async, options.username, options.password );
 				// Apply custom fields if provided
 				if ( options.xhrFields ) {
 					for ( i in options.xhrFields ) {

@@ -1,20 +1,7 @@
-Trigger Rally Online Edition
-============================
+Trigger Rally game engine with no dependencies or CoffeeScript
+==============================================================
 
-http://triggerrally.com
-
-Code structure
---------------
-
-Trigger uses JavaScript on both the client and server.
-
-All code now lives under [server/](https://github.com/CodeArtemis/TriggerRally/tree/v3/server).  
-Client-only code is in [server/public/scripts/](https://github.com/CodeArtemis/TriggerRally/tree/v3/server/public/scripts)  
-Shared code is in [server/shared/](https://github.com/CodeArtemis/TriggerRally/tree/v3/server/shared)  
-
-
-On the server, we use the node.js module system ('require').  
-Run `server/build/build.sh` to build production-mode JS bundles.
+A stripped down version of [TriggerRally](https://github.com/CodeArtemis/TriggerRally) to run locally with no dependencies or CoffeeScript. Setup a basic web server and point it to `server/public/`.
 
 Copyright & License
 -------------------
